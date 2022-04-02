@@ -1,4 +1,4 @@
-# Room homepage solution
+# Room homepage
 
 ## Table of contents
 
