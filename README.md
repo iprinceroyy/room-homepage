@@ -37,4 +37,24 @@ Users should be able to:
 -   [W3Schools](https://www.w3schools.com/) - Helpful for beginners.
 -   [FreeCodeCamp](https://www.freecodecamp.org/) - Huge tutorials related to CS.
 
+## Contributing to Room Homepage
+
+Welcomes you all to contribute to this project
+
+## Issue
+
+Feel free to submit issues and enhancement requets
+
+## Contributing Guidlines
+
+In, general we follow the 'fork-and-pull' Git Workflow  
+1. Fork the repo on github
+2. **Clone** teh project to local machine
+3. Create separate branch with title 'yourname/dev'
+4. **Commit** the changes to your own branch
+5. **Push** your work back upto your fork 
+6. Submit a **pull request** so that we can reveiw your changes  
+    
+NOTE: be sure to merge the lastes from "upstream" before making a pull reuqest!  
+
 ## Contributors
