@@ -62,10 +62,10 @@ Feel free to submit issues and enhancement requets
 
 In general, we follow the 'fork-and-pull' Git Workflow  
 1. Fork the repo on github
-2. **Clone** teh project to your local machine
+2. **Clone** the project to your local machine
 3. Create separate branch with title 'yourname/dev'
 4. **Commit** the changes to your own branch
-5. **Push** your work back upto your fork 
+5. **Push** your work back up to your fork 
 6. Submit a **pull request** so that we can reveiw your changes  
     
 NOTE: be sure to merge the lastes from "upstream" before making a pull reuqest!  
