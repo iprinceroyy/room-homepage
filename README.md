@@ -11,7 +11,7 @@
     -   [Useful resources](#useful-resources)
 -   [Contribution](#contributing-to-room-homepage)
     -   [Issue](#issue)
-    -   [Contributing Guidlines](#contributing-guidlines)
+    -   [Contributing Guidelines](#contributing-guidelines)
 -   [Contributors](#contributors)
 
 ## Overview
@@ -58,7 +58,7 @@ Welcomes you all to contribute to this project
 
 Feel free to submit issues and enhancement requests
 
-### Contributing Guidlines
+### Contributing Guidelines
 
 In general, we follow the 'fork-and-pull' Git Workflow  
 1. Fork the repo on github
