@@ -61,7 +61,7 @@ Feel free to submit issues and enhancement requests
 ### Contributing Guidelines
 
 In general, we follow the 'fork-and-pull' Git Workflow  
-1. Fork the repo on github
+1. **Fork** the repo on github
 2. **Clone** the project to your local machine
 3. Create separate branch with title 'yourname/dev'
 4. **Commit** the changes to your own branch
