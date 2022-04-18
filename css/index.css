@@ -1,3 +1,87 @@
+/*## Colors
 
+### Primary*/
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+.navbar {
+  padding-top: 2em;
+  padding-left: 3.5em;
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px;
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 63%);
+}
+
+#imgId {
+  display: none;
+}
+
+.nav-list {
+  margin-left: 3em;
+}
+
+li a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.nav-list {
+  display: inline;
+}
+
+.close {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    position: relative;
+    left: 40%;
+  }
+
+  .logo-img {
+    width: 60px;
+    height: 25px;
+    justify-self: center;
+  }
+
+  #imgId {
+    display: block;
+    width: 25px;
+    height: 25px;
+    justify-self: flex-start;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .onlick {
+    display: block;
+  }
+
+  #close-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .custom-nav {
+    font-size: 12px;
+    padding: 1em;
+    color: hsl(0deg, 0%, 0%);
+    font-weight: 600;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
