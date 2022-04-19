@@ -1,3 +1,44 @@
 
 
 /*# sourceMappingURL=index.css.map */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(9, 118, 124);
+}
+
+nav{
+/* border: 2px solid black; */
+/* text-align: center; */
+align-items: center;
+display: flex;
+justify-content:flex-start;
+padding: 2rem 4rem;
+height: fit-content;
+font-family:sans-serif;
+}
+
+nav #logo{
+    color: white;
+    margin-right:3rem;
+    font-weight:900;
+}
+
+nav .items{
+    display: flex;
+    margin-left: 0.5rem;
+    /* border: 2px solid black; */
+}
+
+nav .items li{
+    margin-left: 2rem;
+    /* border: 2px solid black; */
+    list-style-type: none;
+    color: whitesmoke;
+    font-weight: 300;
+    
+}
