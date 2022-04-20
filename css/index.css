@@ -1,87 +1,176 @@
-/*## Colors
-
-### Primary*/
+/* ===========
+    Colors
+============ */
+/*  Primary  */
+/*================
+    Typography
+================ */
+/*  Body Copy  */
+/*  Font  */
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+.top-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .top-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.header {
+  height: 65vh;
+  background-image: url("./../assets/images/mobile-image-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-width: 520px) and (max-width: 992px) {
+  .header {
+    background-size: cover;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    background-image: url("./../assets/images/desktop-image-hero-1.jpg");
+    height: 80vh;
+  }
+}
+
+.container {
+  font-family: "Spartan", sans-serif;
+  padding: 2rem;
+}
+
 .navbar {
-  padding-top: 2em;
-  padding-left: 3.5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hamburger {
+  position: relative;
+  z-index: 2;
+  justify-self: start;
+}
+@media (min-width: 992px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  justify-self: center;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 10%;
+  z-index: 1;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+@media (min-width: 992px) {
+  .nav-menu {
+    position: absolute;
+    left: 5%;
+    background-color: transparent;
+    width: 50%;
+    justify-content: start;
+  }
+}
+
+.show {
+  left: 0;
 }
 
 .nav-item {
-  display: inline;
-  padding: 10px;
-  font-size: 15px;
+  display: inline-block;
 }
 
-body {
-  background-color: hsl(0deg, 0%, 63%);
-}
-
-#imgId {
-  display: none;
-}
-
-.nav-list {
-  margin-left: 3em;
-}
-
-li a {
+.nav-link {
+  color: black;
+  font-weight: 600;
   text-decoration: none;
-  color: hsl(0deg, 0%, 100%);
+  padding: 0 1rem;
+}
+@media (min-width: 992px) {
+  .nav-link {
+    color: white;
+  }
 }
 
-.nav-list {
+/* title */
+.title {
+  padding: 4rem 2rem;
+}
+@media (min-width: 992px) {
+  .title {
+    padding: 6rem;
+  }
+}
+
+.title-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.description {
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: #a1a1a1;
+  font-weight: 500;
+}
+
+.shop-link {
   display: inline;
+  margin: 4rem 0 0;
+  font-size: 1rem;
+  color: #454545;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.close {
-  display: none;
+.arrow-icon {
+  width: 3rem;
+  display: inline-block;
+}
+@media (min-width: 992px) {
+  .arrow-icon {
+    right: 17rem;
+  }
 }
 
-@media (max-width: 768px) {
-  .logo {
-    position: relative;
-    left: 40%;
+.about {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 720px) {
+  .about {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
   }
+}
 
-  .logo-img {
-    width: 60px;
-    height: 25px;
-    justify-self: center;
-  }
-
-  #imgId {
-    display: block;
-    width: 25px;
-    height: 25px;
-    justify-self: flex-start;
-  }
-
-  .nav-list {
-    display: none;
-  }
-
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .onlick {
-    display: block;
-  }
-
-  #close-img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .custom-nav {
-    font-size: 12px;
-    padding: 1em;
-    color: hsl(0deg, 0%, 0%);
-    font-weight: 600;
-  }
+/*  about  */
+.about-furniture h2 {
+  margin: 1rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.about-furniture p {
+  color: #454545;
 }
 
 /*# sourceMappingURL=index.css.map */

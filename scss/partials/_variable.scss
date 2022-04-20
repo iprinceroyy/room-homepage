@@ -1,21 +1,29 @@
-/*## Colors
+/* ===========
+    Colors
+============ */
 
-### Primary*/
+
+/*  Primary  */
 
 $dark-gray: hsl(0, 0%, 63%);
 $black: hsl(0, 0%, 0%);
 $white: hsl(0, 0%, 100%);
-$Very-dark-gray: hsl(0, 0%, 27%);
+$very-dark-gray: hsl(0, 0%, 27%);
 
-// ## Typography
+/*================
+    Typography
+================ */
 
-// ### Body Copy
+
+/*  Body Copy  */
 
 $font-size: 12px;
 
-// ### Font
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
-$family: 'Spartan', sans-serif;
+/*  Font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+$family: "Spartan",
+sans-serif;
 $fw-500: 500;
-$fw-600:600;
-$fw-700:700;
+$fw-600: 600;
+$fw-700: 700;
